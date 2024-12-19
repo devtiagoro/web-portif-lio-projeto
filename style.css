@@ -68,7 +68,6 @@ li {
         line-height: 60px;
         text-align: left;
         margin: -60px 0 0;
-        border: 1px solid red;
     }
 }
 
@@ -77,8 +76,8 @@ li {
     .txt {
         width: 100%;
         margin: 2px 0 0;
-        border: 1px solid red;
     }
+    
 
     .txt h1 {
         width: 100%;
