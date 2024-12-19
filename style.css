@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Markazi Text", serif;
+}
+
+.content {
+    width: 90%;
+    padding: 40px 4%;
+    margin: 0 auto;
+}
+
+.btn-default {
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    transition: background-color .5s ease;
+}
+
+.btn-default:hover {
+    background-color: white;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+.txt {
+    width: 70%;
+    height: calc(100vh - 120px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.txt h1 {
+    color: white;
+    font-size: 5.5rem;
+    font-weight: 400;
+    line-height: 70px;
+    margin: 0px 0px 10px;
+    letter-spacing: 2px;
+}
+
+.txt p {
+    width: 80%;
+    color: white;
+    font-size: 1.4rem;
+    margin: 0px 0px 40px;
+}
+
+
+@media screen and (max-width: 1100px) {
+    li {
+        list-style: none;
+    }
+
+    .txt {
+        width: 100%;
+    }
+
+    .txt h1 {
+        width: 100%;
+        font-size: 5rem;
+        line-height: 60px;
+        text-align: left;
+        margin: -60px 0 0;
+        border: 1px solid red;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .txt {
+        width: 100%;
+        margin: 2px 0 0;
+        border: 1px solid red;
+    }
+
+    .txt h1 {
+        width: 100%;
+        font-size: 3.8rem;
+        line-height: 50px;
+        text-align: center;
+        margin: -60px 0 0;
+    }
+
+    .txt p {
+        width: 100%;
+        color: white;
+        font-size: 1.4rem;
+        text-align: center;
+        margin: 15px 0px 40px;
+    }
+
+    .btn-default {
+        width: 80%;
+        margin: 0 auto;
+        border: 1px solid white;
+        border-radius: 20px;
+        color: white;
+        transition: background-color .5s ease;
+    }
+    
+    .btn-default:hover {
+        background-color: white;
+        color: black;
+    }
+}

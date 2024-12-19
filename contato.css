@@ -1,0 +1,136 @@
+#contato {
+    background: linear-gradient(345deg, rgba(80,0,85,1) 0%, rgba(49,0,52,1) 49%);
+}
+
+.conteudo-contato {
+    display: flex;
+    color: white;
+}
+
+.txt-contato {
+    width: 50%;
+    margin-top: 30px
+}
+
+.txt-contato h1 {
+    font-size: 6rem;
+    line-height: 60px;
+    padding: 50px 0 20px;
+}
+
+.txt-contato p {
+    width: 70%;
+    font-size: 1.5rem;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.txt-contato span {
+    display: block;
+    font-size: 1rem;
+    line-height: 15px;
+    padding: 8px 0;
+}
+
+.forms-contato {
+    
+    width: 40%;
+    padding: 0px 0px 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.formul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: justify;
+    padding-left: 10px;
+    margin-left: 30px;
+}
+
+input {
+    width: 80%;
+    padding: 12px 0;
+    background-color: transparent;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+textarea {
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+label {
+    font-size: 1.3rem;
+    display: flex;
+    margin: 10px;
+}
+
+button {
+    margin: 25px 0;
+}
+
+
+@media screen and (max-width: 1100px) {
+    input {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .conteudo-contato {
+        flex-direction: column;
+    }
+
+    .txt-contato {
+        width: 100%;
+        border: 1px solid red;
+        text-align: Center;
+    }
+
+    .txt-contato h1 {
+        font-size: 4rem;
+        line-height: 45px;
+        padding: 10px 0 20px;
+    }
+
+    .txt-contato p {
+        width: 100%;
+        font-size: 1.5rem;
+        line-height: 15px;
+        margin-bottom: 20px;
+    }
+
+    .forms-contato {
+        width: 100%;
+        border: 1px solid red;
+    }
+
+    .formul {
+        width: 90%;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    textarea {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
